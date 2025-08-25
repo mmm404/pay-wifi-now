@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				wifi: {
+					primary: 'hsl(var(--wifi-primary))',
+					secondary: 'hsl(var(--wifi-secondary))',
+					success: 'hsl(var(--wifi-success))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +72,14 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'wifi-gradient': 'var(--wifi-gradient)',
+				'price-gradient': 'var(--price-gradient)'
+			},
+			boxShadow: {
+				'wifi': 'var(--shadow-wifi)',
+				'card-custom': 'var(--shadow-card)'
 			},
 			keyframes: {
 				'accordion-down': {
